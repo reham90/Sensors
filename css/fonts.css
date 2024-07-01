@@ -1,0 +1,27 @@
+
+
+
+
+@font-face {
+    font-family: "fonnts.com-TimesNewerRoman-Regular";
+    src: url("../webfonts/Times new roman/fonnts.com-TimesNewerRoman-Bold.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+
+@font-face {
+    font-family: "fonnts.com-TimesNewerRoman-Bold";
+    src: url("../webfonts/Times new roman/fonnts.com-TimesNewerRoman-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+
+
+
