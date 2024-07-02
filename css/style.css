@@ -903,15 +903,18 @@ input::-webkit-inner-spin-button {
   margin: 0;
   padding: 0;
   margin-bottom: 29px;
-   display: flex;
-  flex-direction: column;
-   max-height: 120px;
-   flex-wrap: wrap;
+  gap: 16px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 750px;
    margin-inline-start: 20px;
    gap:16px;
+   align-items: flex-start;
 }
 .radio-btns-list li{
   display: flex;
+  width: 150px;
+  word-break: break-word;
   align-items: center;
   color: var(--main-color);
   font-size: 18px;
@@ -1283,10 +1286,7 @@ html[dir="rtl"] .footer-accordion.active:after {
     height: 300px;
     margin-inline-start: 30px;
   }
-  .radio-btns-list li{
-    width: 150px;
-    word-break: break-word;
-  }
+ 
   .textarea{
     width: 100%;
   }
@@ -1318,7 +1318,7 @@ html[dir="rtl"] .footer-accordion.active:after {
 }
 
 .radio-btns-list{
-  max-height: 100%;
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(2,1fr);
 }
