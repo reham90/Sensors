@@ -26,7 +26,17 @@ $(document).ready(function() {
       $("html").removeClass("overflow");
   });
 
+   //slide down menu
+   $(".menu-item-has-children a").click(function(e) {
+    (e).preventDefault();
+$(this).siblings(".sub-menu ").slideToggle(400);
 
+if ($(window).width() <= 991) {
+
+   $(this).toggleClass("active");
+   $(".menu-item-has-children a").not(this).removeClass("active");
+}
+});
 
 
   };
