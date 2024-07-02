@@ -191,7 +191,7 @@ html[dir="ltr"] .progress-bar {
   justify-content: space-between;
   text-align: center;
   border: none;
-  padding: 5px 0;
+  padding: 15px 0;
   transition: all 0.3s ease-in-out;
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
@@ -698,6 +698,7 @@ text-transform: capitalize;
   display: flex;
   align-items: center;
   margin-inline-end: 22px;
+  justify-content: center;
 }
 .features-title{
   color: var(--main-color);
@@ -1252,7 +1253,7 @@ text-transform: capitalize;
 }
 .newsletter-button {
   position: absolute;
-  inset-inline-end: 3px;
+  inset-inline-end: 6px;
   top: 50%;
   transform: translateY(-50%);
   color: #fff;
@@ -1418,7 +1419,7 @@ html[dir="rtl"] .sub-menu, html[dir="ltr"] .sub-menu {
 }
 .sub-menu li a span {
   font-family: "times new roman";
-  font-size: 20px;
+  font-size: 16px;
 }
 
 
@@ -1427,6 +1428,7 @@ html[dir="rtl"] .sub-menu, html[dir="ltr"] .sub-menu {
   }
   .feature-icon-block{
     margin-inline-end: 0;
+    
   }
   .order-section{
     padding: 50px 0;
@@ -1504,6 +1506,7 @@ html[dir="rtl"] .sub-menu, html[dir="ltr"] .sub-menu {
     gap:15px;
     height: auto;
     padding: 30px 20px;
+    text-align: center;
   }
   .features-section{
     padding: 0 0 50px;
@@ -1773,7 +1776,7 @@ html[dir="rtl"] .sub-menu, html[dir="ltr"] .sub-menu {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    font-size: 24px;
+    font-size: 20px;
   }
   .img-logo {
     width: 150px;
@@ -1901,7 +1904,7 @@ html[dir="rtl"] .sub-menu, html[dir="ltr"] .sub-menu {
   }
 
   .nav-foot-link {
-    font-size: 13px;
+    font-size: 14px;
   }
   .nav-foot p {
     font-size: 11px;
