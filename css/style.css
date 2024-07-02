@@ -1283,6 +1283,10 @@ html[dir="rtl"] .footer-accordion.active:after {
     height: 300px;
     margin-inline-start: 30px;
   }
+  .radio-btns-list li{
+    width: 150px;
+    word-break: break-word;
+  }
   .textarea{
     width: 100%;
   }
