@@ -97,7 +97,7 @@ html[dir="ltr"] .progress-bar {
 }
 /*preloader*/
 /*                          header section                     */
-.text {
+.whatsapp-btn {
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -114,7 +114,7 @@ html[dir="ltr"] .progress-bar {
   bottom: 8px;
   inset-inline-start: 8px;
 }
-.text::after {
+.whatsapp-btn::after {
   display: flex;
   background-color: rgb(12, 192, 66);
   opacity: 0.102;
