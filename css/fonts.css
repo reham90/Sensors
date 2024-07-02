@@ -3,8 +3,8 @@
 
 
 @font-face {
-    font-family: "fonnts.com-TimesNewerRoman-Regular";
-    src: url("../webfonts/Times new roman/fonnts.com-TimesNewerRoman-Bold.woff") format("woff");
+    font-family: "times new roman";
+    src: url("../webfonts/Times new roman/times new roman.ttf") format("truetype") , url("../webfonts/Times new roman/times\ new\ roman.woff") format("woff") ; 
     font-weight: 400;
     font-style: normal;
 }
@@ -14,8 +14,8 @@
 
 
 @font-face {
-    font-family: "fonnts.com-TimesNewerRoman-Bold";
-    src: url("../webfonts/Times new roman/fonnts.com-TimesNewerRoman-Bold.woff") format("woff");
+    font-family: "times new roman bold";
+    src: url("../webfonts/Times new roman/times new roman bold.ttf") format("truetype") ,  url("../webfonts/Times new roman/times new roman bold.woff") format("woff") ;
     font-weight: 700;
     font-style: normal;
 }

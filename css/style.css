@@ -2,7 +2,7 @@
   scroll-behavior: smooth;
 } */
 body {
-  font-family: "fonnts.com-TimesNewerRoman-Regular";
+  font-family: "times new roman";
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -195,7 +195,7 @@ header {
   background-color: var(--main-color);
   color: #fff;
   font-size: 16px;
-  font-family: "fonnts.com-TimesNewerRoman-Bold";
+  font-family: "times new roman bold"; font-weight:700;
   width: 136px;
   height: 40px;
   display: flex;
@@ -228,10 +228,10 @@ header {
 }
 .contact-link:hover {
   color: #fff;
-  background-color: var(--main-hover);
+  background-color: #165a9b;
 }
 .contact-link:hover:after {
-  background-color: var(--main-hover);
+  background-color: #165a9b;
 }
 
 @keyframes pulsate {
@@ -262,7 +262,7 @@ header {
 .big-menu li a {
   font-size: 16px;
   color: var(--main-color);
-  font-family: "fonnts.com-TimesNewerRoman-Bold";
+  font-family: "times new roman bold"; font-weight:700;
   text-decoration: none;
   transition: 0.5s;
   text-transform: capitalize;
@@ -445,7 +445,8 @@ justify-content: center;
 .main-title{
   color: #fff;
   font-size: 48px;
-  font-family: "fonnts.com-TimesNewerRoman-Bold";
+  font-family: "times new roman bold"; font-weight:700;
+  
   margin: 0;
   text-align: center;
   max-width: 820px;
@@ -572,7 +573,7 @@ gap:59px;
   color: var(--main-color);
   font-size: 30px;
 
-  font-family: "fonnts.com-TimesNewerRoman-Bold";
+  font-family: "times new roman bold"; font-weight:700;
   margin: 0 0 30px;
   text-align: start;
   display: flex;
@@ -598,13 +599,20 @@ text-transform: capitalize;
 .features-section{
   padding: 0 0 114px;
 }
+.feature-icon-block {
+  aspect-ratio: 1 / 1;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  margin-inline-end: 22px;
+}
 .features-title{
   color: var(--main-color);
   text-transform: capitalize;
   text-align: start;
   line-height: 1.389;
   font-size: 36px;
-  font-family: "fonnts.com-TimesNewerRoman-Bold";
+  font-family: "times new roman bold"; font-weight:700;
   margin: 0 0 45px;
   max-width: 654px;
 }
@@ -625,7 +633,7 @@ text-transform: capitalize;
 .feature-icon{
   color: var(--main-color);
   font-size: 48px;
-  margin-inline-end: 22px;
+
 }
 
 /* features section */
@@ -658,7 +666,7 @@ color: #fff;
 .vision-mission-title{
  
   font-size: 24px;
-  font-family: "fonnts.com-TimesNewerRoman-Bold";
+  font-family: "times new roman bold"; font-weight:700;
   text-transform: capitalize;
   margin: 0 0 20px;
 }
@@ -674,7 +682,7 @@ color: #fff;
 .v-m-title{
   color: var(--main-color);
   font-size: 24px;
-  font-family: "fonnts.com-TimesNewerRoman-Bold";
+  font-family: "times new roman bold"; font-weight:700;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -704,7 +712,7 @@ color: #fff;
   justify-content: center;
   color: var(--main-color);
   font-size: 48px;
-  font-family: "fonnts.com-TimesNewerRoman-Bold";
+  font-family: "times new roman bold"; font-weight:700;
   text-align: center;
   margin: 0 0 53px;
   text-transform: capitalize;
@@ -738,7 +746,7 @@ color: #fff;
   color: var(--main-color);
   text-align: start;
   font-size: 24px;
-  font-family: "fonnts.com-TimesNewerRoman-Bold";
+  font-family: "times new roman bold"; font-weight:700;
   margin: 0 0 16px;
 }
 .service-paragraph{
@@ -766,7 +774,7 @@ color: #fff;
 .note{
   color: #ff0000;
   font-size: 24px;
-  font-family: "fonnts.com-TimesNewerRoman-Bold";
+  font-family: "times new roman bold"; font-weight:700;
   margin: 0;
   text-transform: capitalize;
 }
@@ -792,7 +800,7 @@ color: #fff;
 .breadcrumb-head {
   font-size: 30px;
   color: #fff;
-  font-family: "fonnts.com-TimesNewerRoman-Bold";
+  font-family: "times new roman bold"; font-weight:700;
   margin: 0 0 20px;
   text-transform: capitalize;
 }
@@ -834,7 +842,7 @@ color: #fff;
   text-align: center;
   justify-content: center;
   font-size: 30px;
-  font-family: "fonnts.com-TimesNewerRoman-Bold";
+  font-family: "times new roman bold"; font-weight:700;
   line-height: 1.333;
   margin: 0 0 51px;
 }
@@ -853,7 +861,7 @@ color: #fff;
   color: var(--main-color);
   text-transform: capitalize;
   font-size: 18px;
-  font-family: "fonnts.com-TimesNewerRoman-Bold";
+  font-family: "times new roman bold"; font-weight:700;
   text-align: start;
   margin: 0 0 10px;
   margin-inline-start: 20px;
@@ -908,7 +916,7 @@ input::-webkit-inner-spin-button {
   color: var(--main-color);
   font-size: 18px;
   text-transform: capitalize;
-  width: 150px;
+ 
 }
 .radio-button{
   margin: 0;
@@ -965,7 +973,7 @@ input[type="radio"], input[type="checkbox"] {
   background-color: rgb(166, 166, 166);
   color: #fff;
   font-size: 16px;
-  font-family: "fonnts.com-TimesNewerRoman-Bold";
+  font-family: "times new roman bold"; font-weight:700;
   text-transform: capitalize;
   position: absolute;
   top: 50%;
@@ -992,6 +1000,7 @@ input[type="radio"], input[type="checkbox"] {
 .textarea{
   border-radius: 22px;
   height: 100px;
+  width: 750px;
   padding: 20px;
   margin-bottom: 29px;
 }
@@ -1010,16 +1019,16 @@ input[type="radio"], input[type="checkbox"] {
   border-radius: 25px;
   transition: 0.5s;
   font-size: 20px;
-  font-family: "fonnts.com-TimesNewerRoman-Bold";
+  font-family: "times new roman bold"; font-weight:700;
 }
 .submit-btn:hover{
-  background-color: var(--main-hover);
+  background-color: #165a9b;
   color: #fff;
 }
 .submit-btn:focus{
   border: 0;
   outline: none;
-  background-color: var(--main-hover);
+  background-color: #165a9b;
   color: #fff;
 }
 
@@ -1056,7 +1065,7 @@ input[type="radio"], input[type="checkbox"] {
   margin: 0 0 20px;
   text-align: start;
 text-transform: capitalize;
-  font-family: "fonnts.com-TimesNewerRoman-Bold";
+  font-family: "times new roman bold"; font-weight:700;
 }
 .nav-foot{
   padding: 0;
@@ -1154,7 +1163,7 @@ text-transform: capitalize;
   border: none;
   width: 100px;
   height: 29px;
-  font-family: "fonnts.com-TimesNewerRoman-Bold";
+  font-family: "times new roman bold"; font-weight:700;
   font-size: 14px;
   border-radius: 15px;
   background-color: var(--main-color);
@@ -1165,12 +1174,15 @@ text-transform: capitalize;
   transition: 0.5s;
   transition: all 0.3s ease-in-out;
 }
+html[dir="rtl"] .newsletter-button{
+  padding-top: 2px;
+}
 .newsletter-button:hover{
-  background-color: var(--main-hover);
+  background-color: #165a9b;
   color: #fff;
 }
 .newsletter-button:focus{
-  background-color: var(--main-hover);
+  background-color: #165a9b;
   color: #fff;
 }
 
@@ -1271,6 +1283,12 @@ html[dir="rtl"] .footer-accordion.active:after {
     height: 300px;
     margin-inline-start: 30px;
   }
+  .textarea{
+    width: 100%;
+  }
+  .feature-icon-block{
+    margin-inline-end: 0;
+  }
   .order-section{
     padding: 50px 0;
   }
@@ -1325,7 +1343,7 @@ html[dir="rtl"] .footer-accordion.active:after {
   font-size: 22px;
 }
 .service-record:not(:last-child) {
-  margin-bottom: 35px;
+  margin-bottom: 60px;
 }
 .service-record-text{
   justify-content: center;
@@ -1469,7 +1487,7 @@ html[dir="rtl"] .footer-accordion.active:after {
     justify-content: flex-start;
     text-align: center;
     align-items: center;
-    padding: 90px 20px 20px;
+    padding: 110px 20px 20px;
     margin-inline-start: 0;
   }
   .nav-header li {
@@ -1554,7 +1572,9 @@ html[dir="rtl"] .footer-accordion.active:after {
   body {
     position: relative;
   }
- 
+  .vision-mission-paragraph{
+    height: auto;
+  }
   .services-section {
     padding: 0 0 50px;
   }
@@ -1610,7 +1630,7 @@ html[dir="rtl"] .footer-accordion.active:after {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    font-size: 16px;
+    font-size: 24px;
   }
   .img-logo {
     width: 150px;
@@ -1630,6 +1650,8 @@ html[dir="rtl"] .footer-accordion.active:after {
   }
   .big-menu li{
     width: 100%;
+    display: flex;
+    justify-content: center;
   }
   .big-menu li:not(:last-child) {
     margin-bottom: 0;
@@ -1641,8 +1663,9 @@ html[dir="rtl"] .footer-accordion.active:after {
  
 
   .nav-header li a {
-    color: var(--sec-color);
-    font-family: "fonnts.com-TimesNewerRoman-Bold";
+    color: var(--main-color);
+    text-align: center;
+    font-family: "times new roman bold"; font-weight:700;
   }
  
 
